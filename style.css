@@ -1,0 +1,207 @@
+.body {
+    margin: 0;
+    padding: 0px;
+}
+
+.imgs {
+    box-sizing: border-box;
+    background-color: black;
+    margin-top: 50px;
+    margin-left: 140px;
+    margin-right: 140px;
+    border-radius: 5px;
+
+}
+
+.contant {
+    color: white;
+    margin: 40px;
+    width: 40%;
+    text-align: left;
+    font-size: 55px;
+
+}
+
+
+.smaill {
+    color: white;
+    margin: 40px;
+    width: 50%;
+    text-align: left;
+}
+
+.banner {
+
+    text-align: right;
+}
+
+.bannerer {
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+}
+
+.text {
+    float: left;
+}
+
+
+
+.buttonn {
+    margin-left: 40px;
+}
+
+.next {
+    background-color: #ff0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* left side formm */
+.a {
+    position: relative;
+    width: 312px;
+    height: 312px;
+    background-color: rgb(32, 27, 27);
+    margin-left: 140px;
+    margin-top: 40px;
+    border-radius: 15px;
+}
+
+div .b {
+    position: absolute;
+    left: 28px;
+    width: 252px;
+    height: 70px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+div .c {
+    position: absolute;
+    left: 28px;
+    width: 252px;
+    height: 70px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 130px;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+div .d {
+    position: absolute;
+    left: 28px;
+    width: 252px;
+    height: 70px;
+    background-color: rgb(255, 0, 0);
+    margin-top: 230px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+
+}
+
+/* midale work */
+.box{
+    position: relative;
+    width: 716px;
+    height: 542px;
+    /* background-color: rgb(141, 1, 1); */
+    margin-left: 340px;
+    margin-top: 40px;
+ 
+}
+.grid { 
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+    align-items: stretch;
+    }
+  .grid img {
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+    max-width: 100%;
+  }
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+  }
+  
+
+  
+  .card button {
+    border:1px solid gray;
+    border-radius: 5px;
+    outline: 0;
+    padding: 12px;
+    
+
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  .card button:hover {
+    opacity: 0.7;
+  }
+  .fa-solid{
+    color: gray;
+  }
+
+
+  /* footer */
+
+ footer {
+    margin-top:800px;
+    text-align: center;
+    padding: 50px;
+    background-color: rgb(20, 20, 20);
+    color: white;
+  }
+
+  .navbar {
+    overflow: hidden;
+    
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar h3 {
+    
+    display: inline;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+   
+   
+  }
+  
+  .navbar a:hover {
+    background: #f1f1f1;
+    color: black;
+  }
+  @media screen and (min-width: 480px) {
+    #leftsidebar {width: 200px; float: left;}
+    #main {margin-left: 216px;}
+  }
